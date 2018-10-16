@@ -1,0 +1,97 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.overlay_PlayersInfo{
+    height: 800px;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    padding: 1px;
+    position: fixed;
+    display: none;
+    opacity: 0;
+}
+
+.playersInfo{
+    height: 300px;
+    width: 480px;
+    background-color: blue;
+    margin: 100px auto;
+    border-radius: 20px ;
+    padding-top: 5px;
+    text-align: center;
+    border: 0.5px solid black;
+
+}
+.playersInfo:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,1.5);
+}
+
+input{
+    background: #fafafa none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0 5px 5px 0;
+    height: 35px;
+    text-align: center;
+    width: 80%;
+    float:left;
+    margin-top:9px;
+
+}
+
+button{
+    clear: both;
+    background: #e03f58 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+    height: 37px;
+    transition: all 0.6s ease 0s;
+    width: 40%;
+    margin: 20px 10px 0 5px;
+
+}
+
+button:hover{
+    box-shadow: 0 0 20px rgba(255,255,255,2);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+.row{
+    height: 50px;
+    float:left;
+    width: 40%;
+    color: white;
+}
+
+.row p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 105px;
+    background-color: white;
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    outline-style: solid;
+    outline-color: black;
+    background-color: white;
+    float:left;
+    text-align: center;
+    font-size: 85px;
+}
+
+.cell:hover{
+    background-color: lightgray;
+}
+
+

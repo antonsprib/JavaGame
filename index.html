@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Игра крестики нолики</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div id="overlay_PlayersInfo" class="overlay_PlayersInfo">
+        <div id="playersInfo" class="playersInfo">
+                <h1>Игра Крестики - нолики</h1>
+                <div class="row">
+                    <p>Первый игрок: </p>
+                </div>
+                <div class="row">
+                    <input  name="name1" id="player1Name" placeholder="Введите ваше имя!">
+                 </div>
+                <div class="row">
+                    <p>Второй игрок:</p>
+                 </div>
+                <div class="row">
+                    <input  name="name2" id="player2Name" placeholder="Введите ваше имя!">
+                </div>
+
+                <button type="submit" id="infoSubmit">Начать игру</button>
+                <button id="cancel">Передумал играть</button>
+        </div>
+    </div>
+    <div class="container">
+    <h2 id ="move"></h2>
+                <div id="0" class="cell" onclick="addValue(this.id)"></div>
+                <div id="1" class="cell" onclick="addValue(this.id)"></div>
+                <div id="2" class="cell" onclick="addValue(this.id)"></div>
+                <div id="3" class="cell" onclick="addValue(this.id)"></div>
+                <div id="4" class="cell" onclick="addValue(this.id)"></div>
+                <div id="5" class="cell" onclick="addValue(this.id)"></div>
+                <div id="6" class="cell" onclick="addValue(this.id)"></div>
+                <div id="7" class="cell" onclick="addValue(this.id)"></div>
+                <div id="8" class="cell" onclick="addValue(this.id)"></div>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
